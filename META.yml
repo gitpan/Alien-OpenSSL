@@ -16,7 +16,7 @@ name: Alien-OpenSSL
 provides:
   Alien::OpenSSL:
     file: lib/Alien/OpenSSL.pm
-    version: 0.01
+    version: 0.02
 requires:
   Alien::Base: 0
   File::ShareDir: 1.00
@@ -26,4 +26,4 @@ resources:
   homepage: https://github.com/amannb/alien-openssl
   license: http://dev.perl.org/licenses/
   repository: git://github.com/amannb/alien-openssl.git
-version: 0.01
+version: 0.02
