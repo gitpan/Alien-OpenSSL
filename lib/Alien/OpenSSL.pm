@@ -3,7 +3,7 @@ package Alien::OpenSSL;
 use strict;
 use warnings;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use parent 'Alien::Base';
 
@@ -13,7 +13,7 @@ __END__
 
 =head1 NAME
 
-Acme::NSS - Alien wrapper for OpenSSL
+Alien::OpenSSL - Alien wrapper for OpenSSL
 
 =head1 SYNOPSIS
 
