@@ -7,7 +7,7 @@ configure_requires:
   Alien::Base: 0.002
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,7 +16,7 @@ name: Alien-OpenSSL
 provides:
   Alien::OpenSSL:
     file: lib/Alien/OpenSSL.pm
-    version: 0.04
+    version: 0.05
 requires:
   Alien::Base: 0
   File::ShareDir: 1.00
@@ -26,4 +26,4 @@ resources:
   homepage: https://github.com/amannb/alien-openssl
   license: http://dev.perl.org/licenses/
   repository: git://github.com/amannb/alien-openssl.git
-version: 0.04
+version: 0.05

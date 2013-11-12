@@ -27,8 +27,9 @@ my $builder = Alien::Base::ModuleBuild->new (
 		'make', 
 		'make test',
 		],
-#	alien_install_commands => [
-#		],
+	alien_install_commands => [
+	        'make install_sw',
+		],
 	meta_merge => {
 		resources => {
 			homepage => 'https://github.com/amannb/alien-openssl',
