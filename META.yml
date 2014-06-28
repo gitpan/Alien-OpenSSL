@@ -1,29 +1,30 @@
 ---
 abstract: 'Alien wrapper for OpenSSL'
 author:
-  - 'Bernhard Amann <bernhard@icsi.berkeley.edu>'
+  - 'Johanna Amann <johanna@icir.org>'
 build_requires: {}
 configure_requires:
-  Alien::Base: 0.002
-  Module::Build: 0.38
+  Alien::Base: '0.002'
+  Module::Build: '0.38'
+  Test::More: '0'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Alien-OpenSSL
 provides:
   Alien::OpenSSL:
     file: lib/Alien/OpenSSL.pm
-    version: 0.05
+    version: '0.06'
 requires:
-  Alien::Base: 0
-  File::ShareDir: 1.00
+  Alien::Base: '0'
+  File::ShareDir: '1.00'
   perl: v5.8.1
 resources:
-  bugtracker: https://github.com/amannb/alien-openssl/issues
-  homepage: https://github.com/amannb/alien-openssl
+  bugtracker: https://github.com/0xxon/alien-openssl/issues
+  homepage: https://github.com/0xxon/alien-openssl
   license: http://dev.perl.org/licenses/
-  repository: git://github.com/amannb/alien-openssl.git
-version: 0.05
+  repository: git://github.com/0xxon/alien-openssl.git
+version: '0.06'
