@@ -6,7 +6,7 @@ MANIFEST.SKIP
 META.json
 META.yml
 README
-t/0-signature.t
 t/00-use.t
+t/01-signature.t
 t/author-pod.t
 SIGNATURE    Added here by Module::Build

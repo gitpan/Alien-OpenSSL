@@ -32,7 +32,7 @@
    "provides" : {
       "Alien::OpenSSL" : {
          "file" : "lib/Alien/OpenSSL.pm",
-         "version" : "0.06"
+         "version" : "0.07"
       }
    },
    "release_status" : "stable",
@@ -48,5 +48,5 @@
          "url" : "git://github.com/0xxon/alien-openssl.git"
       }
    },
-   "version" : "0.06"
+   "version" : "0.07"
 }
